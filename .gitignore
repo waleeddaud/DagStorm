@@ -1,2 +1,6 @@
 DagStorm_tests
+DagStorm.egg-info
+.tmp*/
 .env
+__pycache__/
+*.py[cod]
