@@ -1,3 +1,0 @@
-resources:
-  config:
-    uri: "postgresql://postgres:rFy37f5DqEe8TN-@db.vkowbwjkhnsixksljrji.supabase.co:5432/postgres"
