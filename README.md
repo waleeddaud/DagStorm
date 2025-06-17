@@ -15,7 +15,6 @@ It uses **Dagster** for orchestrating the pipeline and **SQLAlchemy** to interac
 - [Dagster](https://dagster.io/) - Workflow orchestration
 - [OpenWeatherMap API](https://openweathermap.org/api) - Weather data source
 - [Supabase](https://supabase.com/) - PostgreSQL cloud database
-- [SQLAlchemy](https://www.sqlalchemy.org/) - Python ORM for DB interaction
 
 ---
 
