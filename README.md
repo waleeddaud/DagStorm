@@ -44,11 +44,16 @@ It uses **Dagster** for orchestrating the pipeline and **SQLAlchemy** to interac
 ```bash
 .
 ├── DagStorm/
-│   ├── models.py          # Defines the WeatherData Pydantic model
-│   ├── resources.py       # Supabase connection resource
-│   ├── ops/               # Dagster ops and assets
-│   └── ...
-├── weather_job.py         # Dagster job definition
-├── README.md              # This file
-├── .env                   # Contains SUPABASE_URI and API keys
-└── ...
+│   ├── definitions.py
+│   ├── models.py
+│   ├── resources.py
+│   ├── assets/
+│   │   ├── fetch_weather.py
+│   │   ├── transform_weather.py
+│   │   ├── store_weather.py
+│   ├── job/
+│   │   ├── weather_job.py
+├── .env                 
+├── env.example          
+├── README.md
+├── .gitignore
