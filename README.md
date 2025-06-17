@@ -55,8 +55,5 @@ It uses **Dagster** for orchestrating the pipeline and **SQLAlchemy** to interac
 ├── .env                 
 ├── env.example          
 ├── README.md
-<<<<<<< HEAD
 ├── .gitignore
-=======
-├── .gitignore
->>>>>>> 24d2cd4b91ae156f7654d0ab4173c08d259b2a2c
+
