@@ -33,7 +33,7 @@ It uses **Dagster** for orchestrating the pipeline and **SQLAlchemy** to interac
 
 ### ✅ 3. Store in Supabase
 
-- Uses SQLAlchemy with PostgreSQL dialect to `UPSERT` the data.
+- Supabase client to store the data.
 - Conflict key: `timestamp_utc` to avoid duplicates.
 - Writes to a `weather_data` table hosted on Supabase.
 
