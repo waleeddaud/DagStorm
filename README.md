@@ -15,7 +15,6 @@ It uses **Dagster** for orchestrating the pipeline and **SQLAlchemy** to interac
 - [Dagster](https://dagster.io/) - Workflow orchestration
 - [OpenWeatherMap API](https://openweathermap.org/api) - Weather data source
 - [Supabase](https://supabase.com/) - PostgreSQL cloud database
-- [SQLAlchemy](https://www.sqlalchemy.org/) - Python ORM for DB interaction
 
 ---
 
@@ -33,7 +32,7 @@ It uses **Dagster** for orchestrating the pipeline and **SQLAlchemy** to interac
 
 ### ✅ 3. Store in Supabase
 
-- Uses SQLAlchemy with PostgreSQL dialect to `UPSERT` the data.
+- Supabase client to store the data.
 - Conflict key: `timestamp_utc` to avoid duplicates.
 - Writes to a `weather_data` table hosted on Supabase.
 
@@ -56,8 +55,5 @@ It uses **Dagster** for orchestrating the pipeline and **SQLAlchemy** to interac
 ├── .env                 
 ├── env.example          
 ├── README.md
-<<<<<<< HEAD
 ├── .gitignore
-=======
-├── .gitignore
->>>>>>> 24d2cd4b91ae156f7654d0ab4173c08d259b2a2c
+
